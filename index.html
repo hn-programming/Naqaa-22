@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Naqaa Cleaning Services – Professional cleaning solutions for homes and businesses. Book today." />
+  <meta name="keywords" content="cleaning services, home cleaning, office cleaning, carpet cleaning, deep cleaning, window cleaning, pigeon control" />
+  <meta name="author" content="Naqaa Cleaning Services" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Naqaa Cleaning Services" />
+  <meta property="og:description" content="Professional Cleaning Solutions for Homes and Businesses" />
+  <meta property="og:type" content="website" />
+
+  <title>Naqaa Cleaning Services – Professional Cleaning Solutions</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION BAR
+  ============================================================ -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="index.html" class="nav-logo" aria-label="Naqaa Home">
+        <span class="logo-icon"><i class="fas fa-droplet"></i></span>
+        <span class="logo-text" data-i18n="brand">Naqaa</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" id="navLinks" role="navigation" aria-label="Main navigation">
+        <a href="#home"         class="nav-link active" data-i18n="nav_home">Home</a>
+        <a href="#about"        class="nav-link"        data-i18n="nav_about">About</a>
+        <a href="#services"     class="nav-link"        data-i18n="nav_services">Services</a>
+        <a href="#gallery"      class="nav-link"        data-i18n="nav_gallery">Gallery</a>
+        <a href="#contact"      class="nav-link"        data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <!-- Controls -->
+      <div class="nav-controls">
+        <!-- Language Toggle -->
+        <button class="ctrl-btn lang-btn" id="langToggle" aria-label="Switch language">
+          <i class="fas fa-globe"></i>
+          <span id="langLabel">عربي</span>
+        </button>
+
+        <!-- Dark Mode Toggle -->
+        <button class="ctrl-btn theme-btn" id="themeToggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon" id="themeIcon"></i>
+        </button>
+
+        <!-- Hamburger -->
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="home" aria-label="Hero">
+    <!-- Background overlay -->
+    <div class="hero-overlay"></div>
+
+    <!-- Floating blobs for visual depth -->
+    <div class="hero-blob hero-blob--1"></div>
+    <div class="hero-blob hero-blob--2"></div>
+
+    <div class="hero-content reveal">
+      <span class="hero-eyebrow" data-i18n="hero_eyebrow">Trusted Cleaning Experts</span>
+      <h1 class="hero-title" data-i18n="hero_title">Naqaa Cleaning<br>Services</h1>
+      <p class="hero-subtitle" data-i18n="hero_subtitle">
+        Professional Cleaning Solutions for Homes and Businesses
+      </p>
+      <p class="hero-desc" data-i18n="hero_desc">
+        Spotless results, every time. We combine eco-friendly products with modern
+        equipment to deliver a cleaner, healthier space you can be proud of.
+      </p>
+      <div class="hero-actions">
+        <a href="request-service.html" class="btn btn--primary" data-i18n="hero_cta">
+          Request a Service
+        </a>
+        <a href="#services" class="btn btn--ghost" data-i18n="hero_explore">
+          Explore Services
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-indicator__dot"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section class="section about" id="about" aria-labelledby="about-title">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-eyebrow" data-i18n="about_eyebrow">About Us</span>
+        <h2 class="section-title" id="about-title" data-i18n="about_title">Why Choose Naqaa?</h2>
+        <p class="section-desc" data-i18n="about_desc">
+          We've been raising the bar for cleaning services since 2014 — delivering
+          consistent quality you can feel the moment you walk through the door.
+        </p>
+      </div>
+
+      <div class="about-grid">
+
+        <!-- Card 1 -->
+        <article class="about-card reveal">
+          <div class="about-card__icon">
+            <i class="fas fa-user-tie" aria-hidden="true"></i>
+          </div>
+          <h3 class="about-card__title" data-i18n="ab1_title">Experienced Specialists</h3>
+          <p class="about-card__text" data-i18n="ab1_text">
+            Our team holds verified certifications and brings years of hands-on
+            expertise to every project, large or small.
+          </p>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="about-card reveal">
+          <div class="about-card__icon">
+            <i class="fas fa-star" aria-hidden="true"></i>
+          </div>
+          <h3 class="about-card__title" data-i18n="ab2_title">High Quality Service</h3>
+          <p class="about-card__text" data-i18n="ab2_text">
+            We follow a rigorous checklist on every visit so nothing is ever missed
+            and every surface meets our exacting standard.
+          </p>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="about-card reveal">
+          <div class="about-card__icon">
+            <i class="fas fa-tag" aria-hidden="true"></i>
+          </div>
+          <h3 class="about-card__title" data-i18n="ab3_title">Affordable Pricing</h3>
+          <p class="about-card__text" data-i18n="ab3_text">
+            Premium cleaning shouldn't break the bank. Our transparent, flat-rate
+            pricing means no surprise fees — ever.
+          </p>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="about-card reveal">
+          <div class="about-card__icon">
+            <i class="fas fa-bolt" aria-hidden="true"></i>
+          </div>
+          <h3 class="about-card__title" data-i18n="ab4_title">Fast Response</h3>
+          <p class="about-card__text" data-i18n="ab4_text">
+            Book online and get a confirmed appointment within hours. Same-day
+            service is available for urgent situations.
+          </p>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="about-card reveal">
+          <div class="about-card__icon">
+            <i class="fas fa-heart" aria-hidden="true"></i>
+          </div>
+          <h3 class="about-card__title" data-i18n="ab5_title">Customer Satisfaction</h3>
+          <p class="about-card__text" data-i18n="ab5_text">
+            98 % of our clients rate us 5 stars. If you're not satisfied, we'll
+            re-clean the area at no additional cost.
+          </p>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="about-card reveal">
+          <div class="about-card__icon">
+            <i class="fas fa-leaf" aria-hidden="true"></i>
+          </div>
+          <h3 class="about-card__title" data-i18n="ab6_title">Eco-Friendly Products</h3>
+          <p class="about-card__text" data-i18n="ab6_text">
+            Every product we use is biodegradable and safe for children, pets, and
+            the planet — without sacrificing cleaning power.
+          </p>
+        </article>
+
+        <!-- Card 7 -->
+        <article class="about-card reveal">
+          <div class="about-card__icon">
+            <i class="fas fa-gears" aria-hidden="true"></i>
+          </div>
+          <h3 class="about-card__title" data-i18n="ab7_title">Modern Equipment</h3>
+          <p class="about-card__text" data-i18n="ab7_text">
+            Industrial-grade steam cleaners, HEPA vacuums, and pressure washers
+            ensure a deep clean traditional methods simply can't match.
+          </p>
+        </article>
+
+        <!-- Card 8 (placeholder for visual balance) -->
+        <article class="about-card about-card--accent reveal">
+          <div class="about-card__icon">
+            <i class="fas fa-shield-halved" aria-hidden="true"></i>
+          </div>
+          <h3 class="about-card__title" data-i18n="ab8_title">Fully Insured</h3>
+          <p class="about-card__text" data-i18n="ab8_text">
+            Every Naqaa team member is background-checked, insured, and bonded,
+            giving you total peace of mind in your home or office.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES SECTION
+  ============================================================ -->
+  <section class="section services" id="services" aria-labelledby="services-title">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-eyebrow" data-i18n="srv_eyebrow">What We Offer</span>
+        <h2 class="section-title" id="services-title" data-i18n="srv_title">Our Services</h2>
+        <p class="section-desc" data-i18n="srv_desc">
+          From a quick tidy-up to a full deep-clean, we have a service that fits
+          every need and every budget.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Service 1: Home Cleaning -->
+        <article class="service-card reveal" data-service="Home Cleaning">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop"
+              alt="Home Cleaning"
+              class="service-card__img"
+              loading="lazy"
+            />
+            <span class="service-card__badge" data-i18n="srv_badge_popular">Popular</span>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title" data-i18n="srv1_name">Home Cleaning</h3>
+            <p class="service-card__desc" data-i18n="srv1_desc">
+              A thorough clean of your entire home — kitchens, bathrooms, bedrooms,
+              and living areas — leaving every corner spotless.
+            </p>
+            <div class="service-card__footer">
+              <span class="service-card__price"><span data-i18n="from">From</span> <strong>$50</strong></span>
+              <a href="request-service.html?service=Home+Cleaning" class="btn btn--sm btn--primary" data-i18n="srv_cta">Book Now</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 2: Office Cleaning -->
+        <article class="service-card reveal" data-service="Office Cleaning">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&auto=format&fit=crop"
+              alt="Office Cleaning"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title" data-i18n="srv2_name">Office Cleaning</h3>
+            <p class="service-card__desc" data-i18n="srv2_desc">
+              Keep your workspace hygienic and professional. Ideal for corporate
+              offices, clinics, and retail spaces of all sizes.
+            </p>
+            <div class="service-card__footer">
+              <span class="service-card__price"><span data-i18n="from">From</span> <strong>$80</strong></span>
+              <a href="request-service.html?service=Office+Cleaning" class="btn btn--sm btn--primary" data-i18n="srv_cta">Book Now</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 3: Carpet Cleaning -->
+        <article class="service-card reveal" data-service="Carpet Cleaning">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?w=700&auto=format&fit=crop"
+              alt="Carpet Cleaning"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <!--https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&auto=format&fit=crop-->
+          <div class="service-card__body">
+            <h3 class="service-card__title" data-i18n="srv3_name">Carpet Cleaning</h3>
+            <p class="service-card__desc" data-i18n="srv3_desc">
+              Hot-water extraction removes deep-set dirt, allergens, and stains,
+              restoring your carpets to like-new condition.
+            </p>
+            <div class="service-card__footer">
+              <span class="service-card__price"><span data-i18n="from">From</span> <strong>$40</strong></span>
+              <a href="request-service.html?service=Carpet+Cleaning" class="btn btn--sm btn--primary" data-i18n="srv_cta">Book Now</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 4: Pigeon Control -->
+        <article class="service-card reveal" data-service="Pigeon Control">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600&auto=format&fit=crop"
+              alt="Pigeon Control"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title" data-i18n="srv4_name">Pigeon Control</h3>
+            <p class="service-card__desc" data-i18n="srv4_desc">
+              Humane deterrents and professional removal to protect your property
+              from pigeon damage and health hazards.
+            </p>
+            <div class="service-card__footer">
+              <span class="service-card__price"><span data-i18n="from">From</span> <strong>$70</strong></span>
+              <a href="request-service.html?service=Pigeon+Control" class="btn btn--sm btn--primary" data-i18n="srv_cta">Book Now</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 5: Deep Cleaning -->
+        <article class="service-card reveal" data-service="Deep Cleaning">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=600&auto=format&fit=crop"
+              alt="Deep Cleaning"
+              class="service-card__img"
+              loading="lazy"
+            />
+            <span class="service-card__badge service-card__badge--green" data-i18n="srv_badge_best">Best Value</span>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title" data-i18n="srv5_name">Deep Cleaning</h3>
+            <p class="service-card__desc" data-i18n="srv5_desc">
+              Our most comprehensive service — every inch of your property is
+              cleaned, sanitised, and deodorised from top to bottom.
+            </p>
+            <div class="service-card__footer">
+              <span class="service-card__price"><span data-i18n="from">From</span> <strong>$100</strong></span>
+              <a href="request-service.html?service=Deep+Cleaning" class="btn btn--sm btn--primary" data-i18n="srv_cta">Book Now</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 6: Window Cleaning -->
+        <article class="service-card reveal" data-service="Window Cleaning">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=600&auto=format&fit=crop"
+              alt="Window Cleaning"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title" data-i18n="srv6_name">Window Cleaning</h3>
+            <p class="service-card__desc" data-i18n="srv6_desc">
+              Streak-free, crystal-clear windows inside and out, using pure-water
+              pole systems that are safe at any height.
+            </p>
+            <div class="service-card__footer">
+              <span class="service-card__price"><span data-i18n="from">From</span> <strong>$35</strong></span>
+              <a href="request-service.html?service=Window+Cleaning" class="btn btn--sm btn--primary" data-i18n="srv_cta">Book Now</a>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /services-grid -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALLERY SECTION
+  ============================================================ -->
+  <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-eyebrow" data-i18n="gal_eyebrow">Before &amp; After</span>
+        <h2 class="section-title" id="gallery-title" data-i18n="gal_title">Our Work</h2>
+        <p class="section-desc" data-i18n="gal_desc">
+          Seeing is believing. Here's a glimpse at the transformations our team
+          delivers on every job.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+
+        <!-- Item 1 -->
+        <div class="gallery-item reveal" data-index="0">
+          <div class="gallery-item__before-after">
+            <span class="gallery-label gallery-label--before" data-i18n="before">Before</span>
+            <img
+              src="https://images.unsplash.com/photo-1563453392212-326f5e854473?w=700&auto=format&fit=crop"
+              alt="Before cleaning – living room"
+              class="gallery-item__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-item__before-after gallery-item__before-after--after">
+            <span class="gallery-label gallery-label--after" data-i18n="after">After</span>
+            <img
+              src="https://images.unsplash.com/photo-1583845112203-29329902332e?w=700&auto=format&fit=crop"
+              alt="After cleaning – living room"
+              class="gallery-item__img"
+              loading="lazy"
+            />
+          </div>
+          <button class="gallery-item__zoom" aria-label="View full size" data-img="https://images.unsplash.com/photo-1583845112203-29329902332e?w=1200&auto=format&fit=crop">
+            <i class="fas fa-magnifying-glass-plus"></i>
+          </button>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="gallery-item reveal" data-index="1">
+          <div class="gallery-item__before-after">
+            <span class="gallery-label gallery-label--before" data-i18n="before">Before</span>
+            <img
+              src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&auto=format&fit=crop"
+              alt="Before cleaning – kitchen"
+              class="gallery-item__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-item__before-after gallery-item__before-after--after">
+            <span class="gallery-label gallery-label--after" data-i18n="after">After</span>
+            <img
+              src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=700&auto=format&fit=crop"
+              alt="After cleaning – kitchen"
+              class="gallery-item__img"
+              loading="lazy"
+            />
+          </div>
+          <button class="gallery-item__zoom" aria-label="View full size" data-img="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=1200&auto=format&fit=crop">
+            <i class="fas fa-magnifying-glass-plus"></i>
+          </button>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-item reveal" data-index="2">
+          <div class="gallery-item__before-after">
+            <span class="gallery-label gallery-label--before" data-i18n="before">Before</span>
+            <img
+              src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=700&auto=format&fit=crop"
+              alt="Before cleaning – bathroom"
+              class="gallery-item__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-item__before-after gallery-item__before-after--after">
+            <span class="gallery-label gallery-label--after" data-i18n="after">After</span>
+            <img
+              src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=700&auto=format&fit=crop"
+              alt="After cleaning – bathroom"
+              class="gallery-item__img"
+              loading="lazy"
+            />
+          </div>
+          <button class="gallery-item__zoom" aria-label="View full size" data-img="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1200&auto=format&fit=crop">
+            <i class="fas fa-magnifying-glass-plus"></i>
+          </button>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="gallery-item reveal" data-index="3">
+          <div class="gallery-item__before-after">
+            <span class="gallery-label gallery-label--before" data-i18n="before">Before</span>
+            <img
+              src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?w=700&auto=format&fit=crop"
+              alt="Before cleaning – office"
+              class="gallery-item__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-item__before-after gallery-item__before-after--after">
+            <span class="gallery-label gallery-label--after" data-i18n="after">After</span>
+            <img
+              src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?w=700&auto=format&fit=crop"
+              alt="After cleaning – office"
+              class="gallery-item__img"
+              loading="lazy"
+            />
+          </div>
+          <button class="gallery-item__zoom" aria-label="View full size" data-img="https://images.unsplash.com/photo-1497366412874-3415097a27e7?w=1200&auto=format&fit=crop">
+            <i class="fas fa-magnifying-glass-plus"></i>
+          </button>
+        </div>
+
+      </div><!-- /gallery-grid -->
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox" hidden>
+      <button class="lightbox__close" id="lightboxClose" aria-label="Close lightbox">
+        <i class="fas fa-xmark"></i>
+      </button>
+      <img src="" alt="Full size preview" class="lightbox__img" id="lightboxImg" />
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STATISTICS SECTION
+  ============================================================ -->
+  <section class="section stats" id="stats" aria-label="Statistics">
+    <div class="stats-overlay"></div>
+    <div class="container">
+      <div class="stats-grid">
+
+        <div class="stat-item reveal">
+          <i class="fas fa-face-smile stat-item__icon" aria-hidden="true"></i>
+          <span class="stat-item__number" data-target="1000" data-suffix="+">0</span>
+          <span class="stat-item__label" data-i18n="stat1">Happy Clients</span>
+        </div>
+
+        <div class="stat-item reveal">
+          <i class="fas fa-check-circle stat-item__icon" aria-hidden="true"></i>
+          <span class="stat-item__number" data-target="5000" data-suffix="+">0</span>
+          <span class="stat-item__label" data-i18n="stat2">Completed Jobs</span>
+        </div>
+
+        <div class="stat-item reveal">
+          <i class="fas fa-calendar-check stat-item__icon" aria-hidden="true"></i>
+          <span class="stat-item__number" data-target="10" data-suffix="+">0</span>
+          <span class="stat-item__label" data-i18n="stat3">Years Experience</span>
+        </div>
+
+        <div class="stat-item reveal">
+          <i class="fas fa-headset stat-item__icon" aria-hidden="true"></i>
+          <span class="stat-item__number" data-target="24" data-suffix="/7">0</span>
+          <span class="stat-item__label" data-i18n="stat4">Support</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS SECTION
+  ============================================================ -->
+  <section class="section testimonials" id="testimonials" aria-labelledby="test-title">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-eyebrow" data-i18n="test_eyebrow">Client Reviews</span>
+        <h2 class="section-title" id="test-title" data-i18n="test_title">What Our Clients Say</h2>
+      </div>
+
+      <!-- Slider wrapper -->
+      <div class="testimonials-slider reveal" aria-live="polite">
+        <div class="testimonials-track" id="testimonialsTrack">
+
+          <!-- Testimonial 1 -->
+          <article class="testimonial-card" aria-label="Testimonial from Sarah M.">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <blockquote class="testimonial-card__quote" data-i18n="test1_text">
+              "Naqaa completely transformed our home. The team was professional,
+              thorough, and incredibly respectful of our space. I won't use anyone else."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <img
+                src="https://randomuser.me/api/portraits/women/44.jpg"
+                alt="Sarah M."
+                class="testimonial-card__avatar"
+                loading="lazy"
+              />
+              <div>
+                <strong class="testimonial-card__name" data-i18n="test1_name">Sarah M.</strong>
+                <span class="testimonial-card__role" data-i18n="test1_role">Homeowner</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 2 -->
+          <article class="testimonial-card" aria-label="Testimonial from James R.">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <blockquote class="testimonial-card__quote" data-i18n="test2_text">
+              "Our office has never looked better. They arrive on time, work quietly
+              around our staff, and leave everything spotless. Highly recommended."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <img
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt="James R."
+                class="testimonial-card__avatar"
+                loading="lazy"
+              />
+              <div>
+                <strong class="testimonial-card__name" data-i18n="test2_name">James R.</strong>
+                <span class="testimonial-card__role" data-i18n="test2_role">Business Owner</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 3 -->
+          <article class="testimonial-card" aria-label="Testimonial from Layla K.">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <blockquote class="testimonial-card__quote" data-i18n="test3_text">
+              "The deep-clean package was worth every penny. Stubborn stains I
+              thought were permanent are completely gone. Truly impressive results."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <img
+                src="https://randomuser.me/api/portraits/women/68.jpg"
+                alt="Layla K."
+                class="testimonial-card__avatar"
+                loading="lazy"
+              />
+              <div>
+                <strong class="testimonial-card__name" data-i18n="test3_name">Layla K.</strong>
+                <span class="testimonial-card__role" data-i18n="test3_role">Apartment Resident</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 4 -->
+          <article class="testimonial-card" aria-label="Testimonial from Omar S.">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <blockquote class="testimonial-card__quote" data-i18n="test4_text">
+              "Fast, friendly, and very affordable. Booked a carpet clean at short
+              notice and they fitted us in the very next morning. Brilliant service."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <img
+                src="https://randomuser.me/api/portraits/men/75.jpg"
+                alt="Omar S."
+                class="testimonial-card__avatar"
+                loading="lazy"
+              />
+              <div>
+                <strong class="testimonial-card__name" data-i18n="test4_name">Omar S.</strong>
+                <span class="testimonial-card__role" data-i18n="test4_role">Property Manager</span>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /testimonials-track -->
+      </div>
+
+      <!-- Slider controls -->
+      <div class="testimonials-controls">
+        <button class="slider-btn" id="sliderPrev" aria-label="Previous testimonial">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="slider-dots" id="sliderDots" aria-label="Testimonial navigation"></div>
+        <button class="slider-btn" id="sliderNext" aria-label="Next testimonial">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section class="section contact" id="contact" aria-labelledby="contact-title">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-eyebrow" data-i18n="con_eyebrow">Get in Touch</span>
+        <h2 class="section-title" id="contact-title" data-i18n="con_title">Contact Us</h2>
+        <p class="section-desc" data-i18n="con_desc">
+          Have a question or ready to book? Fill in the form and we'll get back to
+          you within one business hour.
+        </p>
+      </div>
+
+      <div class="contact-layout">
+
+        <!-- Contact Info -->
+        <aside class="contact-info reveal" aria-label="Contact information">
+
+          <div class="contact-info__block">
+            <h3 class="contact-info__heading" data-i18n="con_info_heading">Naqaa Cleaning Services</h3>
+          </div>
+
+          <ul class="contact-info__list">
+            <li>
+              <i class="fas fa-phone" aria-hidden="true"></i>
+              <a href="tel:+1234567890">+1 (234) 567-890</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <a href="mailto:hello@naqaa.com">hello@naqaa.com</a>
+            </li>
+            <li>
+              <i class="fas fa-location-dot" aria-hidden="true"></i>
+              <span data-i18n="con_address">123 Clean Street, Suite 4, Cairo, Egypt</span>
+            </li>
+            <li>
+              <i class="fas fa-clock" aria-hidden="true"></i>
+              <span data-i18n="con_hours">Mon – Sat: 8:00 AM – 8:00 PM</span>
+            </li>
+          </ul>
+
+          <div class="contact-info__services">
+            <h4 data-i18n="con_services_heading">Our Services</h4>
+            <ul>
+              <li data-i18n="srv1_name">Home Cleaning</li>
+              <li data-i18n="srv2_name">Office Cleaning</li>
+              <li data-i18n="srv3_name">Carpet Cleaning</li>
+              <li data-i18n="srv4_name">Pigeon Control</li>
+              <li data-i18n="srv5_name">Deep Cleaning</li>
+              <li data-i18n="srv6_name">Window Cleaning</li>
+            </ul>
+          </div>
+
+        </aside>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="con-name" data-i18n="form_name">Full Name</label>
+                <input type="text" id="con-name" name="name" autocomplete="name"
+                       placeholder="John Doe" required aria-required="true" />
+                <span class="form-error" id="con-name-err"></span>
+              </div>
+              <div class="form-group">
+                <label for="con-phone" data-i18n="form_phone">Phone Number</label>
+                <input type="tel" id="con-phone" name="phone" autocomplete="tel"
+                       placeholder="+1 234 567 890" required aria-required="true" />
+                <span class="form-error" id="con-phone-err"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="con-email" data-i18n="form_email">Email Address</label>
+              <input type="email" id="con-email" name="email" autocomplete="email"
+                     placeholder="john@example.com" required aria-required="true" />
+              <span class="form-error" id="con-email-err"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="con-service" data-i18n="form_service">Service Type</label>
+              <select id="con-service" name="service" required aria-required="true">
+                <option value="" data-i18n="form_service_placeholder">Select a service…</option>
+                <option value="Home Cleaning"   data-i18n="srv1_name">Home Cleaning</option>
+                <option value="Office Cleaning" data-i18n="srv2_name">Office Cleaning</option>
+                <option value="Carpet Cleaning" data-i18n="srv3_name">Carpet Cleaning</option>
+                <option value="Pigeon Control"  data-i18n="srv4_name">Pigeon Control</option>
+                <option value="Deep Cleaning"   data-i18n="srv5_name">Deep Cleaning</option>
+                <option value="Window Cleaning" data-i18n="srv6_name">Window Cleaning</option>
+              </select>
+              <span class="form-error" id="con-service-err"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="con-message" data-i18n="form_message">Message</label>
+              <textarea id="con-message" name="message" rows="4"
+                        placeholder="Tell us about your cleaning needs…" required aria-required="true"></textarea>
+              <span class="form-error" id="con-message-err"></span>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full" data-i18n="form_submit">
+              Send Message
+            </button>
+
+            <!-- Success message (hidden by default) -->
+            <div class="form-success" id="con-success" hidden role="alert">
+              <i class="fas fa-circle-check"></i>
+              <span data-i18n="form_success">Your message was sent! We'll be in touch shortly.</span>
+            </div>
+
+          </form>
+        </div>
+
+      </div><!-- /contact-layout -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand column -->
+        <div class="footer-col footer-col--brand">
+          <a href="index.html" class="nav-logo footer-logo" aria-label="Naqaa Home">
+            <span class="logo-icon"><i class="fas fa-droplet"></i></span>
+            <span class="logo-text" data-i18n="brand">Naqaa</span>
+          </a>
+          <p class="footer-tagline" data-i18n="footer_tagline">
+            Professional Cleaning Solutions for Homes and Businesses.
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter / X"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-col__heading" data-i18n="footer_quick">Quick Links</h4>
+          <ul class="footer-col__list">
+            <li><a href="#home"     data-i18n="nav_home">Home</a></li>
+            <li><a href="#about"    data-i18n="nav_about">About</a></li>
+            <li><a href="#services" data-i18n="nav_services">Services</a></li>
+            <li><a href="#gallery"  data-i18n="nav_gallery">Gallery</a></li>
+            <li><a href="#contact"  data-i18n="nav_contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-col">
+          <h4 class="footer-col__heading" data-i18n="nav_services">Services</h4>
+          <ul class="footer-col__list">
+            <li><a href="request-service.html?service=Home+Cleaning"   data-i18n="srv1_name">Home Cleaning</a></li>
+            <li><a href="request-service.html?service=Office+Cleaning" data-i18n="srv2_name">Office Cleaning</a></li>
+            <li><a href="request-service.html?service=Carpet+Cleaning" data-i18n="srv3_name">Carpet Cleaning</a></li>
+            <li><a href="request-service.html?service=Pigeon+Control"  data-i18n="srv4_name">Pigeon Control</a></li>
+            <li><a href="request-service.html?service=Deep+Cleaning"   data-i18n="srv5_name">Deep Cleaning</a></li>
+            <li><a href="request-service.html?service=Window+Cleaning" data-i18n="srv6_name">Window Cleaning</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-col">
+          <h4 class="footer-col__heading" data-i18n="nav_contact">Contact</h4>
+          <ul class="footer-col__list footer-col__list--contact">
+            <li>
+              <i class="fas fa-phone" aria-hidden="true"></i>
+              <a href="tel:+1234567890">+1 (234) 567-890</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <a href="mailto:hello@naqaa.com">hello@naqaa.com</a>
+            </li>
+            <li>
+              <i class="fas fa-location-dot" aria-hidden="true"></i>
+              <span data-i18n="con_address">123 Clean Street, Cairo, Egypt</span>
+            </li>
+          </ul>
+        </div>
+
+      </div><!-- /footer-grid -->
+
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="footerYear"></span>
+          <span data-i18n="brand">Naqaa</span>
+          <span data-i18n="footer_copy">Cleaning Services. All rights reserved.</span>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" hidden>
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Main JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
